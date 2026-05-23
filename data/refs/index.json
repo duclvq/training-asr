@@ -1,0 +1,137 @@
+[
+  {
+    "id": "VIVOSSPK19_163",
+    "speaker": "VIVOSSPK19",
+    "wav": "data\\refs\\VIVOSSPK19_163.wav",
+    "txt": "data\\refs\\VIVOSSPK19_163.txt",
+    "text": "TÍCH CÓP ĐỦ THỨ ĐỒ LẠC XON NHỮNG NGỌN ĐÈN DẦU XƯA",
+    "duration": 4.906,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK22_246",
+    "speaker": "VIVOSSPK22",
+    "wav": "data\\refs\\VIVOSSPK22_246.wav",
+    "txt": "data\\refs\\VIVOSSPK22_246.txt",
+    "text": "CHÍN MƯƠI TÁM CHÍN MƯƠI CHÍN",
+    "duration": 4.375,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK29_066",
+    "speaker": "VIVOSSPK29",
+    "wav": "data\\refs\\VIVOSSPK29_066.wav",
+    "txt": "data\\refs\\VIVOSSPK29_066.txt",
+    "text": "CHA CỦA HỌ MẤT KHI HAI NGƯỜI MỚI LÊN BỐN ĐỂ LẠI MỘT MÌNH NGƯỜI MẸ LO LẮNG CHĂM SÓC GIA ĐÌNH",
+    "duration": 7.031,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK11_R028",
+    "speaker": "VIVOSSPK11",
+    "wav": "data\\refs\\VIVOSSPK11_R028.wav",
+    "txt": "data\\refs\\VIVOSSPK11_R028.txt",
+    "text": "ĐỒNG THỜI NGƯỜI BỆNH SẼ BỊ THIẾU MÁU VÀ DỄ ĐÔNG MÁU",
+    "duration": 4.344,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK24_090",
+    "speaker": "VIVOSSPK24",
+    "wav": "data\\refs\\VIVOSSPK24_090.wav",
+    "txt": "data\\refs\\VIVOSSPK24_090.txt",
+    "text": "CÒN TẠI CÁC XÃ TRỌNG YẾU VEN BIỂN NGƯỜI DÂN VẪN DI CHUYỂN RA CHUYẾN NGOÀI TRÁNH BÃO",
+    "duration": 6.312,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK10_R183",
+    "speaker": "VIVOSSPK10",
+    "wav": "data\\refs\\VIVOSSPK10_R183.wav",
+    "txt": "data\\refs\\VIVOSSPK10_R183.txt",
+    "text": "CHÚNG TÔI LẤY MỘT CÁI TRÚM BẰNG LƯỚI MỀM",
+    "duration": 4.625,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK30_101",
+    "speaker": "VIVOSSPK30",
+    "wav": "data\\refs\\VIVOSSPK30_101.wav",
+    "txt": "data\\refs\\VIVOSSPK30_101.txt",
+    "text": "TÔI NHỜ TÒA SOẠN BÁO HÀ NỘI MỚI NHẮN GIÙM CÔNG TY NỌ LÀM LẠI",
+    "duration": 7.938,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK34_032",
+    "speaker": "VIVOSSPK34",
+    "wav": "data\\refs\\VIVOSSPK34_032.wav",
+    "txt": "data\\refs\\VIVOSSPK34_032.txt",
+    "text": "KHÔNG CHỈ MẾN KHÁCH HỌ CÒN RẤT HIỀN LÀNH VÀ NHÂN HẬU NHƯ BẢN TÍNH CỦA ÔNG CHA NGÀY XƯA",
+    "duration": 4.25,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK13_260",
+    "speaker": "VIVOSSPK13",
+    "wav": "data\\refs\\VIVOSSPK13_260.wav",
+    "txt": "data\\refs\\VIVOSSPK13_260.txt",
+    "text": "MINH TRƯỜNG ĐÃ CÓ NHIỀU BẠN TÌNH NHƯNG KHÔNG CÓ VỢ",
+    "duration": 4.875,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK04_T036",
+    "speaker": "VIVOSSPK04",
+    "wav": "data\\refs\\VIVOSSPK04_T036.wav",
+    "txt": "data\\refs\\VIVOSSPK04_T036.txt",
+    "text": "CHỈ CẦN GÃI NHẸ VÀO CÂY ỔI LÀ CÀNH VÀ LÁ SẼ RUNG LÊN BẦN BẬT",
+    "duration": 6.125,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK38_019",
+    "speaker": "VIVOSSPK38",
+    "wav": "data\\refs\\VIVOSSPK38_019.wav",
+    "txt": "data\\refs\\VIVOSSPK38_019.txt",
+    "text": "TUY ĐÃ ĐƯỢC HỢP PHÁP HÓA NHƯNG DỊCH VỤ MANG THAI HỘ VẪN KHÔNG NHẬN ĐƯỢC SỰ ĐỒNG TÌNH CỦA NHIỀU NGƯỜI",
+    "duration": 5.844,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK05_R146",
+    "speaker": "VIVOSSPK05",
+    "wav": "data\\refs\\VIVOSSPK05_R146.wav",
+    "txt": "data\\refs\\VIVOSSPK05_R146.txt",
+    "text": "MIÊN CÓ CHỊU KHÓ HỌC NÓI NĂM BA CÂU BẬP BẸ",
+    "duration": 4.438,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK42_094",
+    "speaker": "VIVOSSPK42",
+    "wav": "data\\refs\\VIVOSSPK42_094.wav",
+    "txt": "data\\refs\\VIVOSSPK42_094.txt",
+    "text": "RẤT RỐI RẮM LỘN XỘN LÀM KHỔ TRÍ NHIỀU NGƯỜI VÀ HIỆN VẪN TIẾP DIỄN",
+    "duration": 4.656,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK26_024",
+    "speaker": "VIVOSSPK26",
+    "wav": "data\\refs\\VIVOSSPK26_024.wav",
+    "txt": "data\\refs\\VIVOSSPK26_024.txt",
+    "text": "CẢ CĂN PHÒNG RỘN HẲN LÊN KHI BỌN TRẺ CÓ MẶT ĐÔNG ĐỦ TẠI NHÀ",
+    "duration": 6.375,
+    "sample_rate": 16000
+  },
+  {
+    "id": "VIVOSSPK12_R044",
+    "speaker": "VIVOSSPK12",
+    "wav": "data\\refs\\VIVOSSPK12_R044.wav",
+    "txt": "data\\refs\\VIVOSSPK12_R044.txt",
+    "text": "VÌ SỰ TÁNG TẬN LƯƠNG TÂM CỦA TÊN LÁI XE ĐỐN MẠT KIA",
+    "duration": 4.844,
+    "sample_rate": 16000
+  }
+]

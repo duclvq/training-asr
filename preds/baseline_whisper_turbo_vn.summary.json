@@ -1,0 +1,140 @@
+{
+  "manifest": "data\\manifests\\test_vn.jsonl",
+  "model_type": "whisper",
+  "model": "openai/whisper-large-v3-turbo",
+  "lora_path": null,
+  "overall": {
+    "wer": 2.07311320754717,
+    "cer": 1.403900853311662,
+    "wer_raw": 1.6842105263157894,
+    "cer_raw": 1.4732428115015974
+  },
+  "per_source": {
+    "vn_augmented": {
+      "n": 23,
+      "wer": 2.07311320754717,
+      "cer": 1.403900853311662
+    }
+  },
+  "vn_name_accuracy": {
+    "n_samples": 23,
+    "all_terms_present_pct": 0.0,
+    "per_term": {
+      "Hà Nội": {
+        "hits": 0,
+        "total": 2,
+        "pct": 0.0
+      },
+      "Phú Thọ": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Tô Lâm": {
+        "hits": 0,
+        "total": 4,
+        "pct": 0.0
+      },
+      "Lào Cai": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Cà Mau": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Lê Minh Hưng": {
+        "hits": 0,
+        "total": 3,
+        "pct": 0.0
+      },
+      "Huế": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Lạng Sơn": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Thành phố Hồ Chí Minh": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Quảng Ngãi": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Lai Châu": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Bắc Ninh": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Tuyên Quang": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Cần Thơ": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Hưng Yên": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Quảng Ninh": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Đắk Lắk": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Hà Tĩnh": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Trần Thanh Mẫn": {
+        "hits": 0,
+        "total": 2,
+        "pct": 0.0
+      },
+      "Lâm Đồng": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Điện Biên": {
+        "hits": 0,
+        "total": 2,
+        "pct": 0.0
+      },
+      "Hải Phòng": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      },
+      "Tây Ninh": {
+        "hits": 0,
+        "total": 1,
+        "pct": 0.0
+      }
+    }
+  }
+}

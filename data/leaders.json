@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "as_of": "2026-05-23",
+    "note": "Cập nhật theo user 2026-05-23: Tô Lâm hiện kiêm Tổng Bí thư + Chủ tịch nước; Lê Minh Hưng là Thủ tướng. Các vị trí khác có thể đã thay đổi — hãy verify trước khi dùng nghiêm túc."
+  },
+  "top_leaders": [
+    {"name": "Tô Lâm", "title": "Tổng Bí thư, Chủ tịch nước"},
+    {"name": "Lê Minh Hưng", "title": "Thủ tướng Chính phủ"},
+    {"name": "Trần Thanh Mẫn", "title": "Chủ tịch Quốc hội"}
+  ],
+  "key_party_state": [
+    {"name": "Trần Cẩm Tú", "title": "Thường trực Ban Bí thư"},
+    {"name": "Phạm Minh Chính", "title": "Nguyên Thủ tướng Chính phủ"},
+    {"name": "Lương Cường", "title": "Nguyên Chủ tịch nước"},
+    {"name": "Nguyễn Hòa Bình", "title": "Phó Thủ tướng Thường trực Chính phủ"},
+    {"name": "Trần Hồng Hà", "title": "Phó Thủ tướng Chính phủ"},
+    {"name": "Lê Thành Long", "title": "Phó Thủ tướng Chính phủ"},
+    {"name": "Hồ Đức Phớc", "title": "Phó Thủ tướng Chính phủ"},
+    {"name": "Bùi Thanh Sơn", "title": "Phó Thủ tướng kiêm Bộ trưởng Ngoại giao"},
+    {"name": "Mai Văn Chính", "title": "Phó Thủ tướng Chính phủ"}
+  ],
+  "key_ministers": [
+    {"name": "Phan Văn Giang", "title": "Bộ trưởng Quốc phòng"},
+    {"name": "Lương Tam Quang", "title": "Bộ trưởng Công an"},
+    {"name": "Nguyễn Văn Thắng", "title": "Bộ trưởng Tài chính"},
+    {"name": "Nguyễn Kim Sơn", "title": "Bộ trưởng Giáo dục và Đào tạo"},
+    {"name": "Nguyễn Hồng Diên", "title": "Bộ trưởng Công Thương"},
+    {"name": "Đỗ Đức Duy", "title": "Bộ trưởng Tài nguyên và Môi trường"},
+    {"name": "Nguyễn Mạnh Hùng", "title": "Bộ trưởng Thông tin và Truyền thông"},
+    {"name": "Đào Hồng Lan", "title": "Bộ trưởng Y tế"},
+    {"name": "Nguyễn Văn Hùng", "title": "Bộ trưởng Văn hóa, Thể thao và Du lịch"}
+  ],
+  "historical_figures": [
+    {"name": "Hồ Chí Minh", "title": "Chủ tịch nước đầu tiên của Việt Nam Dân chủ Cộng hòa"},
+    {"name": "Võ Nguyên Giáp", "title": "Đại tướng, Tổng Tư lệnh Quân đội Nhân dân Việt Nam"},
+    {"name": "Trường Chinh", "title": "Cố Tổng Bí thư"},
+    {"name": "Lê Duẩn", "title": "Cố Tổng Bí thư"},
+    {"name": "Phạm Văn Đồng", "title": "Cố Thủ tướng"},
+    {"name": "Tôn Đức Thắng", "title": "Cố Chủ tịch nước"},
+    {"name": "Nguyễn Phú Trọng", "title": "Cố Tổng Bí thư (mất 2024)"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "source": "Nghị quyết 60-NQ/TW (2025) — sáp nhập đơn vị hành chính cấp tỉnh, hiệu lực 01/07/2025",
+    "total": 34,
+    "cities": 6,
+    "provinces": 28,
+    "note": "Tên ghi theo tên gọi mới sau sáp nhập. Phần `merged_from` liệt kê các tỉnh cũ gộp vào (nếu có)."
+  },
+  "cities": [
+    {"name": "Hà Nội", "type": "Thành phố trực thuộc Trung ương", "merged_from": []},
+    {"name": "Hải Phòng", "type": "Thành phố trực thuộc Trung ương", "merged_from": ["Hải Dương"]},
+    {"name": "Huế", "type": "Thành phố trực thuộc Trung ương", "merged_from": []},
+    {"name": "Đà Nẵng", "type": "Thành phố trực thuộc Trung ương", "merged_from": ["Quảng Nam"]},
+    {"name": "Thành phố Hồ Chí Minh", "type": "Thành phố trực thuộc Trung ương", "merged_from": ["Bình Dương", "Bà Rịa - Vũng Tàu"]},
+    {"name": "Cần Thơ", "type": "Thành phố trực thuộc Trung ương", "merged_from": ["Hậu Giang", "Sóc Trăng"]}
+  ],
+  "provinces": [
+    {"name": "Cao Bằng", "merged_from": []},
+    {"name": "Lạng Sơn", "merged_from": []},
+    {"name": "Lai Châu", "merged_from": []},
+    {"name": "Điện Biên", "merged_from": []},
+    {"name": "Sơn La", "merged_from": []},
+    {"name": "Tuyên Quang", "merged_from": ["Hà Giang"]},
+    {"name": "Lào Cai", "merged_from": ["Yên Bái"]},
+    {"name": "Thái Nguyên", "merged_from": ["Bắc Kạn"]},
+    {"name": "Phú Thọ", "merged_from": ["Vĩnh Phúc", "Hòa Bình"]},
+    {"name": "Bắc Ninh", "merged_from": ["Bắc Giang"]},
+    {"name": "Hưng Yên", "merged_from": ["Thái Bình"]},
+    {"name": "Ninh Bình", "merged_from": ["Hà Nam", "Nam Định"]},
+    {"name": "Quảng Ninh", "merged_from": []},
+    {"name": "Thanh Hóa", "merged_from": []},
+    {"name": "Nghệ An", "merged_from": []},
+    {"name": "Hà Tĩnh", "merged_from": []},
+    {"name": "Quảng Trị", "merged_from": ["Quảng Bình"]},
+    {"name": "Quảng Ngãi", "merged_from": ["Kon Tum"]},
+    {"name": "Gia Lai", "merged_from": ["Bình Định"]},
+    {"name": "Khánh Hòa", "merged_from": ["Ninh Thuận"]},
+    {"name": "Lâm Đồng", "merged_from": ["Đắk Nông", "Bình Thuận"]},
+    {"name": "Đắk Lắk", "merged_from": ["Phú Yên"]},
+    {"name": "Đồng Nai", "merged_from": ["Bình Phước"]},
+    {"name": "Tây Ninh", "merged_from": ["Long An"]},
+    {"name": "Vĩnh Long", "merged_from": ["Bến Tre", "Trà Vinh"]},
+    {"name": "Đồng Tháp", "merged_from": ["Tiền Giang"]},
+    {"name": "Cà Mau", "merged_from": ["Bạc Liêu"]},
+    {"name": "An Giang", "merged_from": ["Kiên Giang"]}
+  ]
+}

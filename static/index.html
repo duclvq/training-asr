@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>F5-TTS Vietnamese (ViVoice)</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --panel-2: #334155;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent-strong: #0ea5e9;
+    --danger: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(circle at top, #1e293b 0%, #0f172a 70%);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 32px 16px;
+  }
+  .container { max-width: 880px; margin: 0 auto; }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+  }
+  .sub {
+    margin: 0 0 24px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .sub code {
+    background: #334155;
+    color: #e2e8f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 22px;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 25px -10px rgba(0,0,0,0.5);
+  }
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  textarea, input[type="file"], input[type="number"] {
+    width: 100%;
+    background: #0f172a;
+    color: var(--text);
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+  }
+  textarea { min-height: 80px; }
+  textarea:focus, input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 180px; }
+  .options { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+  .options label {
+    display: flex; align-items: center; gap: 6px;
+    text-transform: none; letter-spacing: 0; font-size: 13px;
+    color: var(--text); margin-bottom: 0;
+  }
+  button {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
+    color: #0f172a;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+  }
+  button:hover { transform: translateY(-1px); }
+  button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+  .status {
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--muted);
+    min-height: 18px;
+  }
+  .status.error { color: var(--danger); }
+  audio { width: 100%; margin-top: 8px; }
+  .download-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .download-link:hover { text-decoration: underline; }
+  .spinner {
+    display: inline-block;
+    width: 12px; height: 12px;
+    border: 2px solid var(--muted);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .field { margin-bottom: 14px; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 4px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>F5-TTS Vietnamese · ViVoice</h1>
+  <p class="sub">Voice cloning TTS dùng model <code>hynt/F5-TTS-Vietnamese-ViVoice</code>. Tải lên audio mẫu (3-10s), nhập đúng nội dung của nó, rồi nhập text cần sinh.</p>
+
+  <form id="form" class="card">
+    <div class="field">
+      <label for="ref_audio">Audio tham chiếu (.wav / .mp3, 3-10 giây)</label>
+      <input type="file" id="ref_audio" name="ref_audio" accept="audio/*" required />
+    </div>
+
+    <div class="field">
+      <label for="ref_text">Nội dung của audio tham chiếu</label>
+      <textarea id="ref_text" name="ref_text" placeholder="Đánh đúng những gì audio bên trên đang nói..." required></textarea>
+    </div>
+
+    <div class="field">
+      <label for="gen_text">Text cần sinh</label>
+      <textarea id="gen_text" name="gen_text" placeholder="Văn bản tiếng Việt cần đọc..." required></textarea>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="speed">Tốc độ</label>
+        <input type="number" id="speed" name="speed" value="1.0" step="0.1" min="0.3" max="2.0" />
+      </div>
+      <div style="display: flex; align-items: flex-end;">
+        <div class="options">
+          <label><input type="checkbox" id="remove_silence" name="remove_silence" /> Bỏ khoảng lặng</label>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 18px;">
+      <button type="submit" id="submit-btn">Sinh audio</button>
+    </div>
+
+    <div id="status" class="status"></div>
+  </form>
+
+  <div class="card" id="result-card" style="display: none;">
+    <label>Kết quả</label>
+    <audio id="result-audio" controls></audio>
+    <a id="download-link" class="download-link" download="f5tts-output.wav">⬇ Tải xuống .wav</a>
+  </div>
+</div>
+
+<script>
+const form = document.getElementById('form');
+const statusEl = document.getElementById('status');
+const submitBtn = document.getElementById('submit-btn');
+const resultCard = document.getElementById('result-card');
+const audioEl = document.getElementById('result-audio');
+const dlLink = document.getElementById('download-link');
+
+let currentObjectUrl = null;
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  statusEl.classList.remove('error');
+  statusEl.innerHTML = '<span class="spinner"></span> Đang sinh audio... (lần đầu sẽ tải model, có thể mất vài phút)';
+  submitBtn.disabled = true;
+
+  const data = new FormData(form);
+  // Force checkbox to a real bool
+  data.set('remove_silence', document.getElementById('remove_silence').checked ? 'true' : 'false');
+
+  try {
+    const res = await fetch('/tts', { method: 'POST', body: data });
+    if (!res.ok) {
+      let msg = `HTTP ${res.status}`;
+      try {
+        const err = await res.json();
+        if (err.detail) msg = err.detail;
+      } catch (_) {}
+      throw new Error(msg);
+    }
+    const blob = await res.blob();
+    if (currentObjectUrl) URL.revokeObjectURL(currentObjectUrl);
+    currentObjectUrl = URL.createObjectURL(blob);
+    audioEl.src = currentObjectUrl;
+    dlLink.href = currentObjectUrl;
+    resultCard.style.display = 'block';
+    statusEl.textContent = '✓ Xong. Bấm play để nghe.';
+    audioEl.play().catch(() => {});
+  } catch (err) {
+    statusEl.classList.add('error');
+    statusEl.textContent = '✗ Lỗi: ' + err.message;
+  } finally {
+    submitBtn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>

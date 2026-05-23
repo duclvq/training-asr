@@ -1,0 +1,24 @@
+{
+  "manifest": "data\\manifests\\test_en.jsonl",
+  "model_type": "whisper",
+  "model": "openai/whisper-large-v3-turbo",
+  "lora_path": null,
+  "overall": {
+    "wer": 0.03338582677165354,
+    "cer": 0.016056014969517717,
+    "wer_raw": 0.9933248569612206,
+    "cer_raw": 0.825677551759522
+  },
+  "per_source": {
+    "english": {
+      "n": 160,
+      "wer": 0.03338582677165354,
+      "cer": 0.016056014969517717
+    }
+  },
+  "vn_name_accuracy": {
+    "n_samples": 0,
+    "all_terms_present_pct": 0.0,
+    "per_term": {}
+  }
+}

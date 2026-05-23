@@ -1,0 +1,30 @@
+﻿# Audio files
+*.wav
+*.flac
+*.mp3
+*.ogg
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
+
+# Model checkpoints
+checkpoints/
+
+# Raw audio datasets (keep only manifests/text)
+data/raw_vn/extracted/
+data/librispeech/LibriSpeech/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/

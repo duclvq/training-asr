@@ -1,0 +1,25 @@
+f5-tts
+fastapi
+uvicorn[standard]
+python-multipart
+huggingface_hub
+soundfile
+numpy
+
+# dataset generator
+openai>=1.40
+python-dotenv
+tqdm
+requests
+
+# training / finetune
+transformers>=4.45
+datasets>=3.0
+accelerate>=0.34
+evaluate
+jiwer
+peft>=0.12
+torchaudio
+librosa
+tensorboard
+bitsandbytes; sys_platform == 'linux'
